@@ -1,0 +1,77 @@
+
+.container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-left: 500px;
+}
+
+
+.link-shopee {
+    color: rgb(0, 113, 133);
+}
+
+.link-shopee:hover {
+    color:rgb(231, 12, 59)
+}
+
+.link-shopee:active {
+    opacity: 0.7;
+}
+
+.running-shoes {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricelist {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-cart {
+    background-color: rgb(255, 216, 20);
+    border-style: solid;
+    border: none;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 00.15s;
+
+}
+
+.add-cart:hover {
+    opacity: 0.7;
+}
+
+.add-cart:active {
+    opacity: 0.5;
+}
+
+.buy-now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border-style: solid;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.buy-now:hover {
+    opacity: 0.7;
+}
+
+.buy-now:active {
+    opacity: 0.7;
+}
